@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .body {
+    font-family: "Montserrat", sans-serif;
+  }
+
+.heading {
+font-family: Montserrat;
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+letter-spacing: 0px;
+text-align: left;
+}
+.main {
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+}
+.main_input {
+  height: 41px;
+  border: 1px solid #FFF;
+  border-radius: 20px;
+  background-color:#EB443F;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  word-wrap: break-word;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: 288px;
+  }
+  &::-moz-placeholder {
+    color: #FFFFFF;
+  }
+  &::placeholder {
+    color: #FFFFFF;
+  }
