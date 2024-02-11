@@ -10,7 +10,13 @@
   .body {
     font-family: "Montserrat", sans-serif;
   }
-
+.top {
+  background-image: url(img/Rectangle_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 735px;
+  }
 .heading {
 font-family: Montserrat;
 font-size: 64px;
@@ -18,6 +24,10 @@ font-weight: 700;
 line-height: 78px;
 letter-spacing: 0px;
 text-align: left;
+color: #FFFFFF;
+width: 788.78px;
+padding-top: 77px;
+padding-left: 120px;
 }
 .main {
 font-family: Montserrat;
@@ -26,9 +36,14 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0px;
 text-align: left;
+color: #FFFFFF;
+width: 588px;
+padding-left: 120px;
+padding-top: 12px;
+padding-bottom: 22px;
 }
 .main_input {
-  height: 41px;
+  height: 48px;
   border: 1px solid #FFF;
   border-radius: 20px;
   background-color:#EB443F;
@@ -36,13 +51,35 @@ text-align: left;
   font-size: 16px;
   font-weight: 400;
   word-wrap: break-word;
-  padding-left: 32px;
-  padding-right: 32px;
-  width: 288px;
-  }
-  &::-moz-placeholder {
+  width: 234.06px;
+  margin-left: 120px;
+    &::placeholder {
     color: #FFFFFF;
-  }
-  &::placeholder {
-    color: #FFFFFF;
-  }
+    padding-left: 80px;
+    }
+}
+.footer_content {
+  background-image: url(img/Rectangle_5.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 556px;
+  padding-top: 130px;
+  
+}
+.footer_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.item_1 {
+border-radius: 16px;
+}
+.item_2 {
+border-radius: 16px;
+}
+.item_3 {
+border-radius: 16px;
+}  
